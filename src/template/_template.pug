@@ -3,10 +3,14 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         title myProjectHtmlCssJs
+        link(rel="stylesheet" type="text/css" href="/libs/reset-css/reset.css")
         link(rel="stylesheet" type="text/css" href="/libs/bootstrap/bootstrap.css")
         link(rel="stylesheet" type="text/css" href="/style/main.css")
     body
         block body
+            div.container-fluid
+                div.header
+                    img(class="header__image" src="/assets/firstImage.jpg")
 
         script(src="/libs/jquery/jquery.js")
         script(src="/libs/bootstrap/bootstrap.js")
